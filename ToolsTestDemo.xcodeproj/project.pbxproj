@@ -13,6 +13,7 @@
 		CF1FE3361CE56D91002DAD77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1FE3341CE56D91002DAD77 /* Main.storyboard */; };
 		CF1FE3381CE56D91002DAD77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1FE3371CE56D91002DAD77 /* Assets.xcassets */; };
 		CF1FE33B1CE56D91002DAD77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1FE3391CE56D91002DAD77 /* LaunchScreen.storyboard */; };
+		CF1FE3441CE56FE0002DAD77 /* ZJToolHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1FE3431CE56FE0002DAD77 /* ZJToolHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CF1FE3371CE56D91002DAD77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF1FE33A1CE56D91002DAD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF1FE33C1CE56D91002DAD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1FE3421CE56FE0002DAD77 /* ZJToolHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJToolHelper.h; sourceTree = "<group>"; };
+		CF1FE3431CE56FE0002DAD77 /* ZJToolHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJToolHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		CF1FE31F1CE56D90002DAD77 = {
 			isa = PBXGroup;
 			children = (
+				CF1FE3421CE56FE0002DAD77 /* ZJToolHelper.h */,
+				CF1FE3431CE56FE0002DAD77 /* ZJToolHelper.m */,
 				CF1FE32A1CE56D91002DAD77 /* ToolsTestDemo */,
 				CF1FE3291CE56D91002DAD77 /* Products */,
 			);
@@ -152,6 +157,7 @@
 				CF1FE3331CE56D91002DAD77 /* ViewController.m in Sources */,
 				CF1FE3301CE56D91002DAD77 /* AppDelegate.m in Sources */,
 				CF1FE32D1CE56D91002DAD77 /* main.m in Sources */,
+				CF1FE3441CE56FE0002DAD77 /* ZJToolHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

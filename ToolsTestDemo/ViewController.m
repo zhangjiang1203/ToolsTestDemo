@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ZJToolHelper.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self.view.layer addSublayer:[ZJToolHelper createGradientLayer:@[[UIColor whiteColor],[UIColor redColor],[UIColor blueColor]] location:@[@(0.2),@(0.4),@(1.0)] start:CGPointMake(0, 0) end:CGPointMake(0, 1) frame:CGRectMake(100, 100, 200, 200)]];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
