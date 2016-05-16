@@ -9,7 +9,7 @@
 #import "ZJToolHelper.h"
 #import <objc/runtime.h>
 
-//去除警告
+
 #pragma clang diagnostic ignored"-Wdeprecated-declarations"
 
 static const char AlertBlockKey;
